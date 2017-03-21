@@ -27,6 +27,9 @@ void destroyPoint(Point p) {
 }
 
 int main() {
-
-
+	int x1 = 2, x2 = 7;
+	Point p1 = createPoint(x1, x2);
+	printf("Point is (%d,%d).", GetX(p1), GetY(p1));
+	destroyPoint(p1);
+	return 0;
 }
